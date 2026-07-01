@@ -1,4 +1,3 @@
-import React from "react";
 import { useFormContext } from "react-hook-form";
 import { FormValues } from "@/schemas/pre-register";
 
@@ -22,9 +21,10 @@ export default function StepSuccess({ onClose }: StepSuccessProps) {
         Pré-registro Concluído!
       </h2>
       <p className="text-sm text-on-surface-variant max-w-md mx-auto mb-8 leading-relaxed font-body">
-        Parabéns, <strong className="text-primary">{primeiroNome}</strong>! Seu pré-cadastro na conta
-        private banking da <strong>Hope Benk</strong> foi enviado com sucesso. Analisaremos sua
-        documentação e retornaremos em até 24 horas úteis.
+        Parabéns, <strong className="text-primary">{primeiroNome}</strong>! Seu
+        pré-cadastro na conta private banking da <strong>Hope Benk</strong> foi
+        enviado com sucesso. Analisaremos sua documentação e retornaremos em
+        breve.
       </p>
       <button
         type="button"
