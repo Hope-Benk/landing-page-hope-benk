@@ -88,6 +88,7 @@ export default function Hero() {
 							className="rounded-2xl w-full shadow-inner"
 							alt="Premium Dashboard Mockup"
 							src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcTnYjuhhh_2TO40orjyvcb0h5Dh9cnaJ0RT63Q1HC3f3IpuON-Hvi4D0tv-gMlZ54UlETgvHjYi6x3qMAg-tcCaLY9al5r84QktQgVcUJlOzQ--zw6dUK7jqHsucjNAglC7IikWADkkkR4iFFt2C4UEOxwkpBiDhf7gDdKK52HxHcwV4xJ_StNUcDPgSQYNF7IVYceuh7B6aUynl0_s7X80RIq1_sdlkUErGSec-8Fs2FM4iFHWjfNPqpRoEUib7cQJ54NtUK8OTS"
+							priority
 						/>
 					</div>
 				</div>
