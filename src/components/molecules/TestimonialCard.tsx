@@ -17,9 +17,13 @@ export default function TestimonialCard({
 }: TestimonialCardProps) {
 	return (
 		<div className="max-w-2xl bg-surface-container-lowest p-8 rounded-4xl shadow-sm border border-slate-100">
-			<div className="flex gap-1 mb-6 text-primary">
+			<div
+				className="flex gap-1 mb-6 text-primary"
+				role="img"
+				aria-label="Avaliação: 5 de 5 estrelas"
+			>
 				{[...Array(5)].map((_, i) => (
-					<Icon key={i} name="star" fill={true} />
+					<Icon key={i} name="star" fill={true} aria-hidden="true" />
 				))}
 			</div>
 			<p className="text-on-surface text-lg mb-8 italic">{text}</p>

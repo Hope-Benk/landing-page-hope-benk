@@ -17,6 +17,13 @@ const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
       inputRef.current?.click();
     };
 
+    const handleKeyDown = (e: React.KeyboardEvent) => {
+      if (e.key === " " || e.key === "Enter") {
+        e.preventDefault();
+        inputRef.current?.click();
+      }
+    };
+
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const file = e.target.files?.[0] || null;
       if (onChange) {
@@ -39,7 +46,11 @@ const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
         {label && <label className="text-xs font-bold text-on-surface-variant ml-1">{label}</label>}
         <div
           onClick={handleContainerClick}
-          className={`border-2 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-center cursor-pointer transition-all relative min-h-[140px] bg-surface-container-low ${
+          onKeyDown={handleKeyDown}
+          tabIndex={0}
+          role="button"
+          aria-label={label || "Carregar arquivo"}
+          className={`border-2 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-center cursor-pointer transition-all relative min-h-[140px] bg-surface-container-low focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent ${
             error
               ? "border-red-500 bg-red-50/5"
               : "border-outline-variant hover:border-primary"
@@ -50,6 +61,7 @@ const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
             ref={inputRef}
             onChange={handleFileChange}
             className="hidden"
+            tabIndex={-1}
             {...props}
           />
           {value ? (

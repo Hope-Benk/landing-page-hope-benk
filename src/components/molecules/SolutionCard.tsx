@@ -34,6 +34,7 @@ export default function SolutionCard({
 			</p>
 			<button
 				onClick={onActionClick}
+				aria-label={`Saiba mais sobre ${title}`}
 				className="text-primary font-bold flex items-center gap-2 cursor-pointer"
 			>
 				Saiba mais <Icon name="arrow_forward" className="text-sm" />

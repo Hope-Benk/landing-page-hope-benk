@@ -24,14 +24,16 @@ export default function Footer() {
               <a
                 className="w-10 h-10 rounded-full bg-slate-200/50 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors duration-200"
                 href="#"
+                aria-label="Acessar website público"
               >
-                <Icon name="public" className="text-lg" />
+                <Icon name="public" className="text-lg" aria-hidden="true" />
               </a>
               <a
                 className="w-10 h-10 rounded-full bg-slate-200/50 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors duration-200"
                 href="#"
+                aria-label="Compartilhar"
               >
-                <Icon name="share" className="text-lg" />
+                <Icon name="share" className="text-lg" aria-hidden="true" />
               </a>
             </div>
           </div>
