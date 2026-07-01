@@ -2,6 +2,7 @@
 
 import Button from "../atoms/Button";
 import Icon from "../atoms/Icon";
+import Link from "next/link";
 
 export default function Footer() {
   const handleWhatsAppClick = () => {
@@ -74,12 +75,12 @@ export default function Footer() {
             </h3>
             <ul className="space-y-4 text-sm font-body">
               <li>
-                <a
+                <Link
                   className="text-on-surface-variant hover:text-primary transition-all duration-200"
-                  href="#"
+                  href="/privacy-policy"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
                 <a
