@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import Button from "../atoms/Button";
 
-export default function Header() {
+interface HeaderProps {
+  onOpenPreRegister: () => void;
+}
+
+export default function Header({ onOpenPreRegister }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -68,8 +72,14 @@ export default function Header() {
           </button>
         </div>
         <div className="flex items-center gap-4">
-          <Button variant="nav" onClick={() => scrollToIntoView("simulator")}>
-            Simule
+          <button
+            onClick={() => scrollToIntoView("simulator")}
+            className="text-on-surface-variant font-semibold hover:text-primary transition-colors duration-300 cursor-pointer bg-transparent border-none outline-none mr-2 hidden sm:block"
+          >
+            Simular
+          </button>
+          <Button variant="nav" onClick={onOpenPreRegister}>
+            Pré-registro
           </Button>
         </div>
       </div>
