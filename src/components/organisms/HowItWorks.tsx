@@ -36,9 +36,9 @@ export default function HowItWorks() {
 						Processo 100% digital e transparente do início ao fim.
 					</p>
 				</div>
-				<div className="grid md:grid-cols-4 gap-12 relative">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 relative">
 					{/* Connectors for Desktop */}
-					<div className="hidden md:block absolute top-12 left-1/4 right-12 h-[2px] bg-outline-variant/30 -z-10" />
+					<div className="hidden lg:block absolute top-12 left-1/4 right-12 h-[2px] bg-outline-variant/30 -z-10" />
 					{STEPS.map((step) => (
 						<StepItem
 							key={step.title}

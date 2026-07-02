@@ -34,7 +34,7 @@ export default function Solutions() {
 						Soluções para cada momento
 					</h2>
 				</div>
-				<div className="grid md:grid-cols-3 gap-8">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{SOLUTIONS.map((solution) => (
 						<SolutionCard
 							key={solution.title}

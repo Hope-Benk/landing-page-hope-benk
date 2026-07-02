@@ -45,7 +45,7 @@ export default function Header({ onOpenPreRegister }: HeaderProps) {
         >
           Hope Benk
         </button>
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           <button
             onClick={() => scrollToIntoView("solutions")}
             className="text-on-surface-variant font-semibold hover:text-primary transition-colors duration-300 cursor-pointer bg-transparent border-none outline-none"

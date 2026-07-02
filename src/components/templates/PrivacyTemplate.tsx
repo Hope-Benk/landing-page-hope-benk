@@ -64,7 +64,7 @@ export default function PrivacyTemplate() {
             >
               Hope Benk
             </Link>
-            <div className="hidden md:flex gap-8 items-center">
+            <div className="hidden lg:flex gap-8 items-center">
               <Link
                 href="/#solutions"
                 className="text-on-surface-variant font-medium hover:text-primary transition-colors"

@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="relative w-full pt-16 pb-8 bg-surface-container-low border-t border-slate-200/50">
       <div className="max-w-7xl mx-auto px-8 flex flex-col gap-12">
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="col-span-1">
             <div className="text-xl font-display font-extrabold text-primary mb-6">
               Hope Benk
