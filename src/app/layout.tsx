@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import QueryProvider from "@/components/providers/QueryProvider";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -57,7 +58,11 @@ export default function RootLayout({
     >
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
@@ -71,37 +76,42 @@ export default function RootLayout({
                 {
                   "@type": "Organization",
                   "@id": "https://hopebenk.com.br/#organization",
-                  "name": "Hope Benk",
-                  "url": "https://hopebenk.com.br",
-                  "logo": {
+                  name: "Hope Benk",
+                  url: "https://hopebenk.com.br",
+                  logo: {
                     "@type": "ImageObject",
-                    "url": "https://hopebenk.com.br/logo.png"
-                  }
+                    url: "https://hopebenk.com.br/logo.png",
+                  },
                 },
                 {
                   "@type": "WebSite",
                   "@id": "https://hopebenk.com.br/#website",
-                  "url": "https://hopebenk.com.br",
-                  "name": "Hope Benk",
-                  "publisher": {
-                    "@id": "https://hopebenk.com.br/#organization"
+                  url: "https://hopebenk.com.br",
+                  name: "Hope Benk",
+                  publisher: {
+                    "@id": "https://hopebenk.com.br/#organization",
                   },
-                  "potentialAction": {
+                  potentialAction: {
                     "@type": "SearchAction",
-                    "target": {
+                    target: {
                       "@type": "EntryPoint",
-                      "urlTemplate": "https://hopebenk.com.br/?s={search_term_string}"
+                      urlTemplate:
+                        "https://hopebenk.com.br/?s={search_term_string}",
                     },
-                    "query-input": "required name=search_term_string"
-                  }
-                }
-              ]
-            })
+                    "query-input": "required name=search_term_string",
+                  },
+                },
+              ],
+            }),
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-surface text-on-surface" suppressHydrationWarning>
+      <body
+        className="min-h-full flex flex-col bg-surface text-on-surface"
+        suppressHydrationWarning
+      >
         <QueryProvider>{children}</QueryProvider>
+        <Analytics />
       </body>
     </html>
   );
