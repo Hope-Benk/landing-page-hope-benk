@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://hopebenk.com.br/sitemap.xml",
+    sitemap: "https://www.hopesolut.com.br/sitemap.xml",
   };
 }

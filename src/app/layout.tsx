@@ -16,14 +16,14 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hopebenk.com.br"),
+  metadataBase: new URL("https://www.hopesolut.com.br"),
   title: "Hope Benk | Crédito Inteligente e Conta PJ para PMEs",
   description:
     "Hope Benk: A solução financeira definitiva para PMEs que buscam agilidade, segurança total e as melhores taxas de crédito e conta digital do mercado brasileiro.",
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://hopebenk.com.br",
+    url: "https://www.hopesolut.com.br",
     title: "Hope Benk | Crédito Inteligente e Conta PJ para PMEs",
     description:
       "Hope Benk: A solução financeira definitiva para PMEs que buscam agilidade, segurança total e as melhores taxas de crédito e conta digital do mercado brasileiro.",
@@ -76,28 +76,28 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://hopebenk.com.br/#organization",
+                  "@id": "https://www.hopesolut.com.br/#organization",
                   name: "Hope Benk",
-                  url: "https://hopebenk.com.br",
+                  url: "https://www.hopesolut.com.br",
                   logo: {
                     "@type": "ImageObject",
-                    url: "https://hopebenk.com.br/logo.png",
+                    url: "https://www.hopesolut.com.br/logo.png",
                   },
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://hopebenk.com.br/#website",
-                  url: "https://hopebenk.com.br",
+                  "@id": "https://www.hopesolut.com.br/#website",
+                  url: "https://www.hopesolut.com.br",
                   name: "Hope Benk",
                   publisher: {
-                    "@id": "https://hopebenk.com.br/#organization",
+                    "@id": "https://www.hopesolut.com.br/#organization",
                   },
                   potentialAction: {
                     "@type": "SearchAction",
                     target: {
                       "@type": "EntryPoint",
                       urlTemplate:
-                        "https://hopebenk.com.br/?s={search_term_string}",
+                        "https://www.hopesolut.com.br/?s={search_term_string}",
                     },
                     "query-input": "required name=search_term_string",
                   },

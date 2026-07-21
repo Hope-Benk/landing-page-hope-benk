@@ -138,7 +138,7 @@ export default function Footer() {
             04538-133.
           </p>
           <div className="text-xs text-slate-500 flex gap-4 font-body">
-            <span>DPO: dpo@hopebenk.com</span>
+            <span>DPO: dpo@hopesolut.com.br</span>
             <span>Ouvidoria: 0800 123 4567</span>
           </div>
         </div>

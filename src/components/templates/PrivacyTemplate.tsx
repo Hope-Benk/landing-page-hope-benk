@@ -373,9 +373,9 @@ export default function PrivacyTemplate() {
                     </span>
                     <a
                       className="text-primary font-medium hover:underline text-sm break-all"
-                      href="mailto:privacidade@hopebenk.com.br"
+                      href="mailto:privacidade@hopesolut.com.br"
                     >
-                      privacidade@hopebenk.com.br
+                      privacidade@hopesolut.com.br
                     </a>
                   </div>
                   <div className="flex-1 p-6 bg-surface-container-lowest rounded-xl shadow-sm border border-slate-100 flex flex-col">
