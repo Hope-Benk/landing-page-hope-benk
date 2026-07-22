@@ -23,11 +23,10 @@ export default function Hero() {
 				<div className="relative z-10">
 					<Badge className="mb-6">Parceria Estratégica</Badge>
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-on-surface mb-6 leading-[1.1] font-display">
-						Crédito rápido e sem burocracia para expandir seu negócio
+						Empréstimo PJ rápido para empresas em Arcoverde e Pernambuco
 					</h1>
 					<p className="text-lg md:text-xl text-on-surface-variant mb-10 max-w-lg leading-relaxed font-body">
-						A solução financeira definitiva para PMEs que buscam agilidade,
-						segurança e as melhores taxas do mercado brasileiro.
+						Crédito empresarial sem burocracia e conta digital PJ sob medida para impulsionar a sua PME em Pernambuco com as melhores taxas do mercado.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4">
 						<Button

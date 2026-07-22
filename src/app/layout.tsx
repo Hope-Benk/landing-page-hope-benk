@@ -17,31 +17,31 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.hopesolut.com.br"),
-  title: "Hope Benk | Crédito Inteligente e Conta PJ para PMEs",
+  title: "Empréstimo PJ e Crédito para PMEs em Arcoverde e Pernambuco | Hope Benk",
   description:
-    "Hope Benk: A solução financeira definitiva para PMEs que buscam agilidade, segurança total e as melhores taxas de crédito e conta digital do mercado brasileiro.",
+    "Procura empréstimo empresarial ou conta jurídica em Arcoverde / Pernambuco? A Hope Benk oferece soluções de crédito rápido, conta digital PJ e as melhores taxas de juros para PMEs da região.",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: "https://www.hopesolut.com.br",
-    title: "Hope Benk | Crédito Inteligente e Conta PJ para PMEs",
+    title: "Empréstimo PJ e Crédito para PMEs em Arcoverde e Pernambuco | Hope Benk",
     description:
-      "Hope Benk: A solução financeira definitiva para PMEs que buscam agilidade, segurança total e as melhores taxas de crédito e conta digital do mercado brasileiro.",
+      "Procura empréstimo empresarial ou conta jurídica em Arcoverde / Pernambuco? A Hope Benk oferece soluções de crédito rápido, conta digital PJ e as melhores taxas de juros para PMEs da região.",
     siteName: "Hope Benk",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Hope Benk - Crédito Inteligente para PMEs",
+        alt: "Hope Benk - Empréstimo PJ e Crédito para PMEs em Arcoverde",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hope Benk | Crédito Inteligente e Conta PJ para PMEs",
+    title: "Empréstimo PJ e Crédito para PMEs em Arcoverde e Pernambuco | Hope Benk",
     description:
-      "Hope Benk: A solução financeira definitiva para PMEs que buscam agilidade, segurança total e as melhores taxas de crédito e conta digital do mercado brasileiro.",
+      "Procura empréstimo empresarial ou conta jurídica em Arcoverde / Pernambuco? A Hope Benk oferece soluções de crédito rápido, conta digital PJ e as melhores taxas de juros para PMEs da região.",
     images: ["/og-image.png"],
   },
 };
