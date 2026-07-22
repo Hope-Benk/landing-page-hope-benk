@@ -143,8 +143,7 @@ export default function PrivacyTemplate() {
               <p className="text-xl text-on-surface-variant leading-relaxed max-w-3xl">
                 No Hope Benk, a sua privacidade financeira é o nosso compromisso
                 mais elevado. Este documento detalha como processamos e
-                protegemos seus dados pessoais como seu banco digital e parceiro
-                estratégico.
+                protegemos seus dados pessoais como seu parceiro de fomento mercantil e crédito.
               </p>
             </header>
 
@@ -155,8 +154,8 @@ export default function PrivacyTemplate() {
                   1. Introdução e Controlador de Dados
                 </h2>
                 <p className="font-body text-base text-on-surface-variant leading-relaxed mb-5">
-                  A Hope Benk S.A. (&quot;Hope Benk&quot;), inscrita sob o CNPJ:
-                  00.000.000/0001-00, com sede no Brasil, atua como Controladora
+                  A ALVORADA CREDITO INDEPENDENTE LTDA. (&quot;Hope Benk&quot;), inscrita sob o CNPJ:
+                  28.297.373/0001-95, com sede no Brasil, atua como Controladora
                   de seus dados pessoais. Estamos comprometidos com a
                   transparência e a segurança de suas informações, seguindo
                   estritamente a Lei Geral de Proteção de Dados (LGPD) e os
@@ -166,7 +165,7 @@ export default function PrivacyTemplate() {
                   Ao utilizar nossos serviços, aplicativos ou site, você
                   reconhece os termos desta Política de Privacidade. Esta
                   política se aplica a todos os clientes individuais e
-                  corporativos atuais, anteriores e futuros do Hope Benk.
+                  corporativos atuais, anteriores e futuros da Hope Benk.
                 </p>
               </section>
 
@@ -373,9 +372,9 @@ export default function PrivacyTemplate() {
                     </span>
                     <a
                       className="text-primary font-medium hover:underline text-sm break-all"
-                      href="mailto:privacidade@hopesolut.com.br"
+                      href="mailto:arcoverdeferreira@hotmail.com"
                     >
-                      privacidade@hopesolut.com.br
+                      arcoverdeferreira@hotmail.com
                     </a>
                   </div>
                   <div className="flex-1 p-6 bg-surface-container-lowest rounded-xl shadow-sm border border-slate-100 flex flex-col">
@@ -386,8 +385,7 @@ export default function PrivacyTemplate() {
                       Correspondência
                     </span>
                     <p className="text-xs text-on-surface-variant leading-relaxed">
-                      A/C Depto. de Privacidade, Hope Benk S.A. | São Paulo, SP
-                      - Brasil
+                      A/C Depto. de Privacidade, ALVORADA CREDITO INDEPENDENTE LTDA. | Rua Martins Junior, nº 14, Bairro São Geraldo, Arcoverde - PE, CEP: 56.515-330
                     </p>
                   </div>
                 </div>
@@ -409,8 +407,8 @@ export default function PrivacyTemplate() {
                 Hope Benk
               </Link>
               <p className="mt-4 text-sm text-on-surface-variant leading-relaxed font-body">
-                Redefinindo o private banking através de serenidade
-                arquitetônica e precisão tecnológica.
+                Redefinindo o crédito empresarial através de agilidade,
+                transparência e precisão tecnológica.
               </p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12">
@@ -469,8 +467,7 @@ export default function PrivacyTemplate() {
           </div>
           <div className="pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-body text-sm text-on-surface-variant">
-              © 2026 Hope Benk S.A. CNPJ: 00.000.000/0001-00. Autorizado pelo
-              Banco Central do Brasil.
+              © 2026 ALVORADA CREDITO INDEPENDENTE LTDA. CNPJ: 28.297.373/0001-95.
             </p>
           </div>
         </div>

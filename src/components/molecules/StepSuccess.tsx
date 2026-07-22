@@ -22,7 +22,7 @@ export default function StepSuccess({ onClose }: StepSuccessProps) {
       </h2>
       <p className="text-sm text-on-surface-variant max-w-md mx-auto mb-8 leading-relaxed font-body">
         Parabéns, <strong className="text-primary">{primeiroNome}</strong>! Seu
-        pré-cadastro na conta private banking da <strong>Hope Benk</strong> foi
+        pré-cadastro na <strong>Hope Benk</strong> foi
         enviado com sucesso. Analisaremos sua documentação e retornaremos em
         breve.
       </p>

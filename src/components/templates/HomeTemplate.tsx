@@ -30,6 +30,10 @@ const Faq = dynamic(() => import("../organisms/Faq"), {
   loading: () => <div className="h-[400px] animate-pulse bg-surface rounded-4xl my-8 mx-8" />,
 });
 
+const AppDownload = dynamic(() => import("../organisms/AppDownload"), {
+  loading: () => <div className="h-[400px] animate-pulse bg-slate-900 rounded-4xl my-8 mx-8" />,
+});
+
 const Footer = dynamic(() => import("../organisms/Footer"), {
   loading: () => <div className="h-[200px] animate-pulse bg-surface rounded-t-4xl my-8 mx-8" />,
 });
@@ -52,6 +56,7 @@ export default function HomeTemplate() {
         <Benefits />
         <Solutions />
         <Testimonials />
+        <AppDownload />
         <Faq />
       </main>
       <Footer />

@@ -77,7 +77,8 @@ export default function RootLayout({
                 {
                   "@type": "Organization",
                   "@id": "https://www.hopesolut.com.br/#organization",
-                  name: "Hope Benk",
+                  name: "ALVORADA CREDITO INDEPENDENTE LTDA.",
+                  alternateName: "Hope Benk",
                   url: "https://www.hopesolut.com.br",
                   logo: {
                     "@type": "ImageObject",
@@ -126,16 +127,16 @@ export default function RootLayout({
                   "@id": "https://www.hopesolut.com.br/#service",
                   name: "Hope Benk",
                   url: "https://www.hopesolut.com.br",
-                  telephone: "+55-81-99999-9999",
+                  telephone: "+55-87-9173-2345",
                   address: {
                     "@type": "PostalAddress",
-                    streetAddress: "Rua Major Braz, 288 - Centro",
+                    streetAddress: "Rua Martins Junior, nº 14, Bairro São Geraldo",
                     addressLocality: "Arcoverde",
                     addressRegion: "PE",
-                    postalCode: "56400-000",
+                    postalCode: "56.515-330",
                     addressCountry: "BR",
                   },
-                  serviceType: "Empréstimo PJ e Conta Digital",
+                  serviceType: "Empréstimo PJ e Fomento Mercantil",
                   areaServed: [
                     {
                       "@type": "AdministrativeArea",

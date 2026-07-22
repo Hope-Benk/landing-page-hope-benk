@@ -131,14 +131,12 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="font-body text-xs text-slate-500 text-center md:text-left leading-relaxed">
-            © 2024 Hope Benk S.A. CNPJ: 00.000.000/0001-00. Authorized by the
-            Central Bank of Brazil.
+            © 2026 ALVORADA CREDITO INDEPENDENTE LTDA. CNPJ: 28.297.373/0001-95.
             <br />
-            Av. Brigadeiro Faria Lima, 3477 - Itaim Bibi, São Paulo - SP,
-            04538-133.
+            Rua Martins Junior, nº 14, Bairro São Geraldo, Arcoverde - PE, 56515-330.
           </p>
           <div className="text-xs text-slate-500 flex gap-4 font-body">
-            <span>DPO: dpo@hopesolut.com.br</span>
+            <span>Contato: arcoverdeferreira@hotmail.com</span>
             <span>Ouvidoria: 0800 123 4567</span>
           </div>
         </div>
